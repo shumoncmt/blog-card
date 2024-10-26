@@ -1,0 +1,203 @@
+
+<style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    flex: 1;
+}
+
+.blog-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.blog {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    flex: 1 0 calc(33.33% - 20px);
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-image {
+    position: relative;
+}
+
+.blog-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+.blog-image img:hover {
+    transform: scale(1.05);
+} 
+
+.blog-image .date {
+    position: absolute; 
+    padding: -20px;
+    bottom:-15px ;
+    margin-left: 30px;
+    background-color: #1515b8;
+    color: #fdfdfd;
+    padding: 8px 8px 8px 8px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.blog-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.blog-content h2 {
+    font-size: 20px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.blog-content p {
+    text-align: justify;
+    flex-grow: 1;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.blog-content a {
+    align-self: flex-start;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.blog-content a:hover {
+    background-color: #0056b3;
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="blog-row">
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2024/10/DTG2024.jpg" alt="Blog Image 1">
+                    <div class="date">February 01, 2024</div>
+                </div>
+                <div class="blog-content">
+                    <h2>DTG Fair 2024</h2>
+                    <p>Dhaka International Textile and Garments Machinery Exhibition (DTG)-2024</p>
+                    <a href="https://greengenesisbd.com/dtg-fair-2024/">Read More</a>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2024/06/World-environment-day-2024-1024x774.jpg" alt="Blog Image 2">
+                    <div class="date">June 05, 2024</div>
+                </div>
+                <div class="blog-content">
+                    <h2>পরিবেশ মেলা-২০২৪</h2>
+                    <p>পরিবেশ মেলা-২০২৪...</p>
+                    <a href="https://greengenesisbd.com/%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%ac%e0%a7%87%e0%a6%b6-%e0%a6%ae%e0%a7%87%e0%a6%b2%e0%a6%be-%e0%a7%a8%e0%a7%a6%e0%a7%a8%e0%a7%aa/">Read More</a>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2023/10/Funday-2024.jpeg" alt="Blog Image 3">
+                    <div class="date">March 02, 2024</div>
+                </div>
+                <div class="blog-content">
+                    <h2>Fun Day 2024</h2>
+                    <p>Fun Day 2024....</p>
+                    <a href="https://greengenesisbd.com/ggel-family-fun-day-2024/">Read More</a>
+                </div>
+            </div>
+            
+        </div>
+        <div class="blog-row">
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2023/10/%E0%A6%AA%E0%A6%B0%E0%A6%BF%E0%A6%AC%E0%A7%87%E0%A6%B6-%E0%A6%AE%E0%A7%87%E0%A6%B2%E0%A6%BE-%E0%A7%A8%E0%A7%A6%E0%A7%A8%E0%A7%A9.jpg" alt="Blog Image 4">
+                    <div class="date">June 05, 2023</div>
+                </div>
+                <div class="blog-content">
+                    <h2>পরিবেশ মেলা-২০২৩</h2>
+                    <p>পরিবেশ মেলা-২০২৩</p>
+                    <a href="https://greengenesisbd.com/%e0%a6%aa%e0%a6%b0%e0%a6%bf%e0%a6%ac%e0%a7%87%e0%a6%b6-%e0%a6%ae%e0%a7%87%e0%a6%b2%e0%a6%be-%e0%a7%a8%e0%a7%a6%e0%a7%a8%e0%a7%a9/">Read More</a>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2023/10/Get-Together-Factory-2022-8.jpg" alt="Blog Image 5">
+                    <div class="date">July 27, 2022</div>
+                </div>
+                <div class="blog-content">
+                    <h2>Get Together 2022</h2>
+                    <p>Get Together 2022</p>
+                    <a href="https://greengenesisbd.com/get-together-factory-2022/">Read More</a>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2023/10/Partners-Meetup-2021-7.jpg" alt="Blog Image 6">
+                    <div class="date">December 09, 2021</div>
+                </div>
+                <div class="blog-content">
+                    <h2>Partners Meetup 2021</h2>
+                    <p>Partners Meetup 2021</p>
+                    <a href="https://greengenesisbd.com/partners-meetup-2021/">Read More</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="blog-row">
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2023/10/DTG-2023.jpg" alt="Blog Image 1">
+                    <div class="date">February 15, 2023</div>
+                </div>
+                <div class="blog-content">
+                    <h2>DTG Fair 2023</h2>
+                    <p>DTG Fair 2023...</p>
+                    <a href="https://greengenesisbd.com/dtg-fair-2023/">Read More</a>
+                </div>
+            </div>
+            <div class="blog">
+                <div class="blog-image">
+                    <img src="https://greengenesisbd.com/wp-content/uploads/2024/10/DNCC-City-Corporation.jpg" alt="Blog Image 1">
+                    <div class="date">March 10, 2023</div>
+                </div>
+                <div class="blog-content">
+                    <h2>City Corporation Fair 2023</h2>
+                    <p>City Corporation Fair 2023</p>
+                    <a href="https://greengenesisbd.com/city-corporation-fair/">Read More</a>
+                </div>
+            </div>
+            <div class="blog">
+                
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+</body>
+</html>
